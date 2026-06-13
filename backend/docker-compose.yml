@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:18
+    container_name: arquivini-db
+    environment:
+      POSTGRES_DB: arquivini_db
+      POSTGRES_USER: usuario_admin
+      POSTGRES_PASSWORD: "Arquivini2026"
+    ports:
+      - "55432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+      - ./assuntos.sql:/docker-entrypoint-initdb.d/02-assuntos.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U usuario_admin -d arquivini_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  postgres_data:
