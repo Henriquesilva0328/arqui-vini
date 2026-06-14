@@ -43,7 +43,7 @@ export default function Footer() {
           </li>
 
           <li className="li-container-a">
-            <a href="Contato@viniarquitetos.com.br" aria-label="Email">
+            <a href="mailto:contato@viniarquitetos.com.br" aria-label="Email">
               <MdOutlineEmail size={40} color="white" />
             </a>
           </li>
