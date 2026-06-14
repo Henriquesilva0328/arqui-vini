@@ -37,19 +37,19 @@ export default function Footer() {
           </li>
 
           <li className="li-container-a">
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/viniarquitetos?igsh=MWlib21zMHRieXRsZA==" aria-label="Instagram">
               <FaInstagram size={35} color="white" />
             </a>
           </li>
 
           <li className="li-container-a">
-            <a href="#" aria-label="Email">
+            <a href="Contato@viniarquitetos.com.br" aria-label="Email">
               <MdOutlineEmail size={40} color="white" />
             </a>
           </li>
 
           <li className="li-container-a">
-            <a href="#" aria-label="Telefone">
+            <a href="https://wa.me/5511987410531" aria-label="Telefone">
               <BsFillTelephoneFill size={30} color="white" />
             </a>
           </li>
