@@ -166,7 +166,7 @@ export default function ContatoPage() {
                 <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5ZM12 7a5 5 0 1 1 0 10A5 5 0 0 1 12 7Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm5.25-2.25a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75Z" />
               </svg>
             </a>
-            <a href="#" aria-label="LinkedIn" className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition">
+            <a href="https://www.linkedin.com/in/melissa-ara%C3%BAjo-34528b239" aria-label="LinkedIn" className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M4.98 3.5A2.49 2.49 0 0 1 7.5 6a2.49 2.49 0 0 1-2.52 2.5A2.49 2.49 0 0 1 2.5 6a2.49 2.49 0 0 1 2.48-2.5ZM3 9h4v12H3V9Zm7 0h3.6v1.71h.05C14.18 9.67 15.6 9 17.3 9 21 9 22 11.29 22 14.5V21h-4v-5.75c0-1.37-.03-3.13-1.9-3.13-1.92 0-2.22 1.5-2.22 3.03V21h-4V9Z" />
               </svg>
