@@ -31,7 +31,7 @@ export default function Footer() {
       <div className="footer-container flex h-auto flex-col items-center justify-center gap-5 bg-[#3E3E3E] px-5 pb-10 pt-6 md:h-70">
         <ul className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
           <li className="li-container-a">
-            <a href="#" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/melissa-ara%C3%BAjo-34528b239" aria-label="LinkedIn">
               <CiLinkedin size={40} color="white" />
             </a>
           </li>
