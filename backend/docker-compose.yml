@@ -3,9 +3,9 @@ services:
     image: postgres:18
     container_name: arquivini-db
     environment:
-      POSTGRES_DB: arquivini_db
-      POSTGRES_USER: usuario_admin
-      POSTGRES_PASSWORD: "Arquivini2026"
+      POSTGRES_DB: 
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: ""
     ports:
       - "55432:5432"
     volumes:
